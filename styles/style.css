@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    /* height: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    /* padding: 1rem; */
+}
+
+.smt{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.year,.month, .day,.hour,.minute,.second{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.waiting{
+    background-size: cover;
+    height: 40vh;
+    padding-top: 1rem;
+}
