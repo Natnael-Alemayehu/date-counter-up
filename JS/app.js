@@ -13,7 +13,7 @@ function updateNumOfDays () {
     var dateNow = new Date(); 
     var currYear = dateNow.getFullYear();
     if ( (currYear % 4 == 0 && currYear % 100 != 0 ) || currYear % 400 == 0 ) {
-        this.numOfDays[1] = 29;
+        this.numOfDays[1] = 29; 
     }
     var self = this;
     setTimeout(function(){self.updateNumOfDays();}, (new Date((currYear+1), 1, 2) - dateNow));

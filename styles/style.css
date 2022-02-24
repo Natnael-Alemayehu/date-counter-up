@@ -36,7 +36,7 @@ h2{
 .year,.month, .day,.hour,.minute,.second{
     font-size: 2rem;
     padding-bottom: 2rem;
-}
+} 
 
 .waiting{
     background-size: cover;
